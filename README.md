@@ -20,4 +20,4 @@ Este proyecto contiene archivos `.feature` para probar operaciones CRUD básicas
 Para correr solo el runner del PetStore y su orquestador se necesita el siguiente comando
 
 ```js
-mvn clean test -Dtest=examples.PetStore.PetStoreRunner
+mvn clean test -Dtest=examples.PetStore.PetsRunner
