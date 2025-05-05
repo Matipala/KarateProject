@@ -15,14 +15,9 @@ Este proyecto contiene archivos `.feature` para probar operaciones CRUD básicas
 - Maven o Gradle (según configuración)
 - [Karate DSL](https://karatelabs.io/)
 
-## ⚙️ Configuración
+## ⚙️ PetsRunner
 
-Asegúrate de tener el archivo `karate-config.js` configurado con la base URL:
+Para correr solo el runner del PetStore y su orquestador se necesita el siguiente comando
 
 ```js
-function fn() {
-  var config = {
-    baseUrl: 'https://petstore.swagger.io/v2'
-  };
-  return config;
-}
+mvn clean test -Dtest=examples.PetStore.PetStoreRunner
