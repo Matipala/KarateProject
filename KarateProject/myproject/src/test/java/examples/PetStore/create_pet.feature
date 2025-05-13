@@ -1,3 +1,4 @@
+@dev
 Feature: Crear mascota en Petstore
 
   Background:
